@@ -18,6 +18,9 @@
         padding: 24px;
         width: 100%;
     }
+    body {
+        padding: 40px;
+    }
 }
 
 body {
@@ -26,9 +29,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 24px;
-    padding: 10px;
-  
 }
 
 .highlight-color {
