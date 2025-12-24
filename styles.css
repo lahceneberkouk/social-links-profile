@@ -13,21 +13,6 @@
   src: url(assets/fonts/static/Inter-Bold.ttf) format(WOFF2);
 }
 
-@media (max-width: 400px) {
-    body {
-        padding: 24px;
-        box-sizing: border-box;
-    }
-    .MainDiv {
-        padding: 24px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .SocialLink {
-        width: 100%;
-    }
-}
-
 body {
     background-color: #141414;
     display: flex;
