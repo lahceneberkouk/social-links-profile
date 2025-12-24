@@ -14,9 +14,12 @@
 }
 
 @media (max-width: 400px) {
+    body {
+        padding: 10px;
+    }
     .MainDiv {
         padding: 24px;
-        width: 70%;
+        width: 100%;
     }
 }
 
