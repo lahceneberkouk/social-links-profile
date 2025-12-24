@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(assets/fonts/static/Inter-Regular.ttf) format(WOFF2);
+}
+
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url(assets/fonts/static/Inter-SemiBold.ttf) format(WOFF2);
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: url(assets/fonts/static/Inter-Bold.ttf) format(WOFF2);
+}
+
+@media (max-width: 400px) {
+    .MainDiv {
+        padding: 24px;
+        width: 100%;
+    }
+}
+
+body {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;
+    margin: 0;
+  
+}
+
+.highlight-color {
+    color: #FFFFFF;
+}
+
+.MainDiv {
+    background-color: #1F1F1F;
+    padding: 40px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.SocialLinksSection {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile-image {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.PersonName {
+    font-family: 'InterBold';
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: -12px;
+}
+
+.Location {
+    color: #C4F82A;
+    font-family: 'InterSemiBold', sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.Description {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+}
+
+.SocialLink {
+    background-color: #333333;
+    font-family: 'InterBold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+    line-height: 150%;
+    letter-spacing: 0px;
+    height: 45px;
+    width: 304px;
+    border-radius: 10px;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.SocialLink:hover {
+    background-color: #C4F82A;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.5s ease;
+}
