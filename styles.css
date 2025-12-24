@@ -13,12 +13,18 @@
   src: url(assets/fonts/static/Inter-Bold.ttf) format(WOFF2);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #141414;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 24px;
+    margin: 0;
 }
 
 .highlight-color {
